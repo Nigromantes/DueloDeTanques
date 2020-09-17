@@ -224,11 +224,91 @@ public class Tanque
                 }
             }
 
-            //Recuperación del cansacio. 
+           
             //Equilibrio
-            //Recupración de caída. 
-            //Probaabilidad de mareo o confusión. 
+            private int equilibrio; 
+                        
+            public int Equilibrio
+            {
+                get 
+                {
+                    return equilibrio;
+                }
+                set
+                {
+                    equilibrio = value;                                 
+                }           
+            
+            }
+
+            //Recuperación del cansacio. 
+
+            private int cansancio;
+
+            public int Cansancio
+            {
+                get
+                {
+                    return cansancio;
+                }
+                set
+                {
+                    cansancio = value;
+                }
+
+            }
+
+            //Recuperación de caída. 
+
+            private int recuperacionDeCansancio;
+
+            public int RecuperacionDeCansancio
+            {
+                get
+                {
+                    return recuperacionDeCansancio;
+                }
+                set
+                {
+                    recuperacionDeCansancio = value;
+                }
+
+            }
+
+            //Probabilidad de mareo o confusión. 
+
+            private int probabilidadDeMarioOConfusion;
+
+            public int ProbabilidadDeMarioOConfusion
+            {
+                get
+                {
+                    return probabilidadDeMarioOConfusion;
+                }
+                set
+                {
+                    probabilidadDeMarioOConfusion = value;
+                }
+
+            }
+
             //Recuperación de mareo o confusión. 
+
+            private int recuperaciónDeMarioOConfusion;
+
+            public int RecuperaciónDeMarioOConfusion
+            {
+                get
+                {
+                    return recuperaciónDeMarioOConfusion;
+                }
+                set
+                {
+                    recuperaciónDeMarioOConfusion = value;
+                }
+
+            }
+
 
 
         }
